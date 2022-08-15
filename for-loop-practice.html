@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For Loop Practice</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+let text = "";
+let i;
+for (i = 0; i <= 5; i++) {
+    text += "The number is " + i + "<br>";
+}
+
+//*Bài 2*//
+let num = prompt("Enter a number: ");
+let total = 0
+let a = 1
+for (; a <= num; a += 1) {
+    total = total + 1
+    alert(total);
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
